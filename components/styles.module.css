@@ -62,12 +62,14 @@
   display:none
 }
 
-.settings,
+.settings{
+  user-select: none;
+}
+
 .social {
   user-select: none;
    display:none
 }
-
 .settings a,
 .social a {
   cursor: pointer;

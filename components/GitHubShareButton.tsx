@@ -9,9 +9,6 @@ export const GitHubShareButton: React.FC = () => {
       href='https://github.com/transitive-bullshit/nextjs-notion-starter-kit'
       target='_blank'
       rel='noopener noreferrer'
-      style={{
-       display:'none'
-      }}
       className={styles.githubCorner}
       aria-label='View source on GitHub'
     >

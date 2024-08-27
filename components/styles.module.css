@@ -91,10 +91,11 @@
 .social a:hover {
   transition: color 50ms ease-out;
 }
-
+.toggleDarkMode{
+  margin: auto!important;
+}
 .toggleDarkMode:hover {
   color: #2795e9;
-  margin:auto;
 }
 
 .twitter:hover {

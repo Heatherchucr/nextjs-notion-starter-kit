@@ -195,7 +195,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
 
   const pageAside = React.useMemo(
     () => (
-      <PageAside block={block} recordMap={recordMap} isBlogPost={isBlogPost} />
+      // <PageAside block={block} recordMap={recordMap} isBlogPost={isBlogPost} />
     ),
     [block, recordMap, isBlogPost]
   )
@@ -277,6 +277,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
         mapPageUrl={siteMapPageUrl}
         mapImageUrl={mapImageUrl}
         searchNotion={config.isSearchEnabled ? searchNotion : null}
+        pageAside={pageAside}
         footer={footer}
       />
 

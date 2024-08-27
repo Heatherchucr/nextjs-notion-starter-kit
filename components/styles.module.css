@@ -59,11 +59,13 @@
 .copyright {
   font-size: 80%;
   padding: 0.5em;
+  display:none
 }
 
 .settings,
 .social {
   user-select: none;
+   display:none
 }
 
 .settings a,

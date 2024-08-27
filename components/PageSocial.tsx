@@ -15,7 +15,7 @@ interface SocialLink {
 
 const socialLinks: SocialLink[] = [
   config.twitter && {
-    name: '小红书',
+    name: 'twitter',
     href: `https://twitter.com/${config.twitter}`,
     title: `Twitter @${config.twitter}`,
     icon: (
@@ -26,7 +26,7 @@ const socialLinks: SocialLink[] = [
   },
 
   config.github && {
-    name: '抖音',
+    name: 'github',
     href: `https://github.com/${config.github}`,
     title: `GitHub @${config.github}`,
     icon: (

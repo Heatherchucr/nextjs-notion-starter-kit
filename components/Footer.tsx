@@ -36,7 +36,7 @@ export const FooterImpl: React.FC = () => {
 
   return (
     <footer className={styles.footer}>
-      <div className={styles.copyright}>Copyright {currentYear} {config.author}</div>
+      <div style="display:none" className={styles.copyright}>Copyright {currentYear} {config.author}</div>
 
       <div className={styles.settings}>
         {hasMounted && (
@@ -52,7 +52,7 @@ export const FooterImpl: React.FC = () => {
         )}
       </div>
 
-      <div className={styles.social}>
+      <div style="display:none" className={styles.social}>
         {config.twitter && (
           <a
             className={styles.twitter}
